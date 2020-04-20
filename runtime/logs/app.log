@@ -1,0 +1,2083 @@
+2020-04-20 17:36:12 [-][-][-][error][ParseError] ParseError: syntax error, unexpected ',', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/harut/code/stor/migrations/m200420_173202_create_table_store_product.php:17
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/console/controllers/MigrateController.php(197): yii\console\controllers\BaseMigrateController->includeMigrationFile('m200420_173202_...')
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(724): yii\console\controllers\MigrateController->createMigration('m200420_173202_...')
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m200420_173202_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#8 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#12 {main}
+2020-04-20 17:36:11 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587404171.4166
+    'REQUEST_TIME' => 1587404171
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2020-04-20 17:44:07 [::1][-][9i2aqgbkmeqt465kea01ns3t0p][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "gi". in /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gi', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/harut/code/stor/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/harut/code/stor/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/harut/code/stor/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-04-20 17:44:07 [::1][-][9i2aqgbkmeqt465kea01ns3t0p][info][application] $_GET = [
+    'r' => 'gi'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'QEgPyes4SwmjtuXanSUCCg' => '1'
+    'liveagent_oref' => ''
+    'ajs_group_id' => 'null'
+    '_ga' => 'GA1.1.1562741037.1584883134'
+    'liveagent_sid' => '25aff3a2-845a-49e1-8444-2ab1d54b5420'
+    'liveagent_vc' => '2'
+    'liveagent_ptid' => '25aff3a2-845a-49e1-8444-2ab1d54b5420'
+    'ajs_user_id' => '15300'
+    'ajs_anonymous_id' => '\"3e886d69-03c0-472f-8c7d-f0bf7b9eb52c\"'
+    'most_recent_purchase_dates' => 'a:1:{i:0;s:19:\"2020-04-15 08:57:33\";}'
+    '__atuvc' => '3|16'
+    'proxy' => '1'
+    'advanced-frontend' => '753614f0a026f782bb412ea36a891d0d'
+    '_csrf-frontend' => '369c595c5b7612d079dd42ae84ad03443ef3f5d7b8dd5de650650b82c9f2ec4da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ImFnz8CHr55nVjKgUuTb2aR0dX1__lEG\";}'
+    'advanced-backend' => '9ee7f526a2951f4670424600d7915eb2'
+    '_csrf-backend' => 'f6f10df1b223f5b32acf6b4a4ed959ad002b1dc893ac7ed98f357022347c30b6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"MRc33gCnmIyJLLInkLXRsIQQtL1NRsRD\";}'
+    'PHPSESSID' => '9i2aqgbkmeqt465kea01ns3t0p'
+    '_csrf' => '04fc42a432d9bd7489902850f793b61d566431e1b575ad9d09a3fb33b93690eca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qQd2s3Gq9_sACnAxTDoXxGYuAsqgtSM1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/harut/code/stor/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '52128'
+    'SERVER_SOFTWARE' => 'PHP 7.3.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gi'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/harut/code/stor/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gi'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'QEgPyes4SwmjtuXanSUCCg=1; liveagent_oref=; ajs_group_id=null; _ga=GA1.1.1562741037.1584883134; liveagent_sid=25aff3a2-845a-49e1-8444-2ab1d54b5420; liveagent_vc=2; liveagent_ptid=25aff3a2-845a-49e1-8444-2ab1d54b5420; ajs_user_id=15300; ajs_anonymous_id=%223e886d69-03c0-472f-8c7d-f0bf7b9eb52c%22; most_recent_purchase_dates=a%3A1%3A%7Bi%3A0%3Bs%3A19%3A%222020-04-15+08%3A57%3A33%22%3B%7D; __atuvc=3%7C16; proxy=1; advanced-frontend=753614f0a026f782bb412ea36a891d0d; _csrf-frontend=369c595c5b7612d079dd42ae84ad03443ef3f5d7b8dd5de650650b82c9f2ec4da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22ImFnz8CHr55nVjKgUuTb2aR0dX1__lEG%22%3B%7D; advanced-backend=9ee7f526a2951f4670424600d7915eb2; _csrf-backend=f6f10df1b223f5b32acf6b4a4ed959ad002b1dc893ac7ed98f357022347c30b6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22MRc33gCnmIyJLLInkLXRsIQQtL1NRsRD%22%3B%7D; PHPSESSID=9i2aqgbkmeqt465kea01ns3t0p; _csrf=04fc42a432d9bd7489902850f793b61d566431e1b575ad9d09a3fb33b93690eca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qQd2s3Gq9_sACnAxTDoXxGYuAsqgtSM1%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1587404647.8482
+    'REQUEST_TIME' => 1587404647
+]
+2020-04-20 17:44:12 [::1][-][9i2aqgbkmeqt465kea01ns3t0p][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "gi". in /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gi', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/harut/code/stor/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/harut/code/stor/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/harut/code/stor/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-04-20 17:44:12 [::1][-][9i2aqgbkmeqt465kea01ns3t0p][info][application] $_GET = [
+    'r' => 'gi'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'QEgPyes4SwmjtuXanSUCCg' => '1'
+    'liveagent_oref' => ''
+    'ajs_group_id' => 'null'
+    '_ga' => 'GA1.1.1562741037.1584883134'
+    'liveagent_sid' => '25aff3a2-845a-49e1-8444-2ab1d54b5420'
+    'liveagent_vc' => '2'
+    'liveagent_ptid' => '25aff3a2-845a-49e1-8444-2ab1d54b5420'
+    'ajs_user_id' => '15300'
+    'ajs_anonymous_id' => '\"3e886d69-03c0-472f-8c7d-f0bf7b9eb52c\"'
+    'most_recent_purchase_dates' => 'a:1:{i:0;s:19:\"2020-04-15 08:57:33\";}'
+    '__atuvc' => '3|16'
+    'proxy' => '1'
+    'advanced-frontend' => '753614f0a026f782bb412ea36a891d0d'
+    '_csrf-frontend' => '369c595c5b7612d079dd42ae84ad03443ef3f5d7b8dd5de650650b82c9f2ec4da:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"ImFnz8CHr55nVjKgUuTb2aR0dX1__lEG\";}'
+    'advanced-backend' => '9ee7f526a2951f4670424600d7915eb2'
+    '_csrf-backend' => 'f6f10df1b223f5b32acf6b4a4ed959ad002b1dc893ac7ed98f357022347c30b6a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"MRc33gCnmIyJLLInkLXRsIQQtL1NRsRD\";}'
+    'PHPSESSID' => '9i2aqgbkmeqt465kea01ns3t0p'
+    '_csrf' => '04fc42a432d9bd7489902850f793b61d566431e1b575ad9d09a3fb33b93690eca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qQd2s3Gq9_sACnAxTDoXxGYuAsqgtSM1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/harut/code/stor/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '52147'
+    'SERVER_SOFTWARE' => 'PHP 7.3.16 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gi'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/harut/code/stor/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gi'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'QEgPyes4SwmjtuXanSUCCg=1; liveagent_oref=; ajs_group_id=null; _ga=GA1.1.1562741037.1584883134; liveagent_sid=25aff3a2-845a-49e1-8444-2ab1d54b5420; liveagent_vc=2; liveagent_ptid=25aff3a2-845a-49e1-8444-2ab1d54b5420; ajs_user_id=15300; ajs_anonymous_id=%223e886d69-03c0-472f-8c7d-f0bf7b9eb52c%22; most_recent_purchase_dates=a%3A1%3A%7Bi%3A0%3Bs%3A19%3A%222020-04-15+08%3A57%3A33%22%3B%7D; __atuvc=3%7C16; proxy=1; advanced-frontend=753614f0a026f782bb412ea36a891d0d; _csrf-frontend=369c595c5b7612d079dd42ae84ad03443ef3f5d7b8dd5de650650b82c9f2ec4da%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22ImFnz8CHr55nVjKgUuTb2aR0dX1__lEG%22%3B%7D; advanced-backend=9ee7f526a2951f4670424600d7915eb2; _csrf-backend=f6f10df1b223f5b32acf6b4a4ed959ad002b1dc893ac7ed98f357022347c30b6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22MRc33gCnmIyJLLInkLXRsIQQtL1NRsRD%22%3B%7D; PHPSESSID=9i2aqgbkmeqt465kea01ns3t0p; _csrf=04fc42a432d9bd7489902850f793b61d566431e1b575ad9d09a3fb33b93690eca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qQd2s3Gq9_sACnAxTDoXxGYuAsqgtSM1%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1587404652.2553
+    'REQUEST_TIME' => 1587404652
+]
+2020-04-20 17:46:09 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "creat". in /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('creat', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('creat', Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "creat". in /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('creat', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#3 {main}
+2020-04-20 17:46:09 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587404769.7719
+    'REQUEST_TIME' => 1587404769
+    'argv' => [
+        0 => 'yii'
+        1 => 'creat'
+        2 => 'command'
+    ]
+    'argc' => 3
+]
+2020-04-20 17:46:21 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "create". in /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('create', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('create', Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "create". in /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('create', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#3 {main}
+2020-04-20 17:46:21 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587404781.5838
+    'REQUEST_TIME' => 1587404781
+    'argv' => [
+        0 => 'yii'
+        1 => 'create'
+        2 => 'command'
+    ]
+    'argc' => 3
+]
+2020-04-20 17:47:50 [-][-][-][error][yii\console\Exception] yii\console\Exception: Unknown alias: -m. Aliases available: -h (--help) in /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php:119
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('hello', Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('hello', Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#5 {main}
+2020-04-20 17:47:50 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587404870.9139
+    'REQUEST_TIME' => 1587404870
+    'argv' => [
+        0 => 'yii'
+        1 => 'hello'
+        2 => '-m=hello'
+    ]
+    'argc' => 3
+]
+2020-04-20 17:48:06 [-][-][-][error][yii\console\Exception] yii\console\Exception: Unknown alias: -m. Aliases available: -h (--help) in /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php:119
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('hello', Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('hello', Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#5 {main}
+2020-04-20 17:48:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587404886.3941
+    'REQUEST_TIME' => 1587404886
+    'argv' => [
+        0 => 'yii'
+        1 => 'hello'
+        2 => '-m=hello'
+    ]
+    'argc' => 3
+]
+2020-04-20 18:14:09 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "GenerateImageThumbnail". in /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('GenerateImageTh...', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('GenerateImageTh...', Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "GenerateImageThumbnail". in /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('GenerateImageTh...', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#3 {main}
+2020-04-20 18:14:09 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587406449.6058
+    'REQUEST_TIME' => 1587406449
+    'argv' => [
+        0 => 'yii'
+        1 => 'GenerateImageThumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:14:15 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "generateImageThumbnail". in /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generateImageTh...', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generateImageTh...', Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "generateImageThumbnail". in /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generateImageTh...', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#3 {main}
+2020-04-20 18:14:15 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587406455.5989
+    'REQUEST_TIME' => 1587406455
+    'argv' => [
+        0 => 'yii'
+        1 => 'generateImageThumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:15:06 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "generateImageThumbnail". in /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generateImageTh...', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generateImageTh...', Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "generateImageThumbnail". in /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generateImageTh...', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#3 {main}
+2020-04-20 18:15:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587406506.1808
+    'REQUEST_TIME' => 1587406506
+    'argv' => [
+        0 => 'yii'
+        1 => 'generateImageThumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:16:00 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_dilated' in 'where clause' in /Users/harut/code/stor/vendor/yiisoft/yii2/db/Command.php:1293
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/db/Command.php(1293): PDOStatement->execute()
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/db/Command.php(1159): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 /Users/harut/code/stor/models/Product.php(61): yii\db\ActiveQuery->all()
+#6 /Users/harut/code/stor/commands/HelloController.php(32): app\models\Product->getActiveProducts()
+#7 [internal function]: app\commands\HelloController->actionIndex('hello world')
+#8 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#11 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#12 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('hello', Array)
+#13 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('hello', Array)
+#14 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#16 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_dilated' in 'where clause'
+The SQL being executed was: SELECT * FROM `product` WHERE `is_dilated`='0' in /Users/harut/code/stor/vendor/yiisoft/yii2/db/Schema.php:674
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/db/Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/db/Command.php(1159): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/db/Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/db/Query.php(237): yii\db\Command->queryAll()
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 /Users/harut/code/stor/models/Product.php(61): yii\db\ActiveQuery->all()
+#6 /Users/harut/code/stor/commands/HelloController.php(32): app\models\Product->getActiveProducts()
+#7 [internal function]: app\commands\HelloController->actionIndex('hello world')
+#8 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#11 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#12 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('hello', Array)
+#13 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('hello', Array)
+#14 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#16 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'is_dilated' in 'where clause'
+)
+
+2020-04-20 18:16:00 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587406560.3307
+    'REQUEST_TIME' => 1587406560
+    'argv' => [
+        0 => 'yii'
+        1 => 'hello'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:16:58 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "generate_image_thumbnail". in /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate_image_...', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate_image_...', Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "generate_image_thumbnail". in /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate_image_...', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#3 {main}
+2020-04-20 18:16:58 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587406618.0371
+    'REQUEST_TIME' => 1587406618
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate_image_thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:17:08 [-][-][-][error][Error] Error: Class 'yii\imagine\Image' not found in /Users/harut/code/stor/commands/GenerateImageThumbnailController.php:26
+Stack trace:
+#0 [internal function]: app\commands\GenerateImageThumbnailController->actionIndex()
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#9 {main}
+2020-04-20 18:17:08 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587406628.0876
+    'REQUEST_TIME' => 1587406628
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:17:21 [-][-][-][error][Error] Error: Class 'yii\imagine\Image' not found in /Users/harut/code/stor/commands/GenerateImageThumbnailController.php:26
+Stack trace:
+#0 [internal function]: app\commands\GenerateImageThumbnailController->actionIndex()
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#9 {main}
+2020-04-20 18:17:21 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587406641.6938
+    'REQUEST_TIME' => 1587406641
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:26:19 [-][-][-][error][Error] Error: Class 'yii\imagine\Image' not found in /Users/harut/code/stor/commands/GenerateImageThumbnailController.php:26
+Stack trace:
+#0 [internal function]: app\commands\GenerateImageThumbnailController->actionIndex()
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#9 {main}
+2020-04-20 18:26:19 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587407179.6136
+    'REQUEST_TIME' => 1587407179
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:27:42 [-][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @webroot/images/images/1.png in /Users/harut/code/stor/vendor/yiisoft/yii2/BaseYii.php:154
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2-imagine/src/BaseImage.php(144): yii\BaseYii::getAlias('@webroot/images...')
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2-imagine/src/BaseImage.php(219): yii\imagine\BaseImage::ensureImageInterfaceInstance('@webroot/images...')
+#2 /Users/harut/code/stor/commands/GenerateImageThumbnailController.php(26): yii\imagine\BaseImage::thumbnail('@webroot/images...', 120, 120)
+#3 [internal function]: app\commands\GenerateImageThumbnailController->actionIndex()
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#8 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#9 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#10 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#12 {main}
+2020-04-20 18:27:42 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587407262.3809
+    'REQUEST_TIME' => 1587407262
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:28:05 [-][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @webroot/images/1.png in /Users/harut/code/stor/vendor/yiisoft/yii2/BaseYii.php:154
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2-imagine/src/BaseImage.php(144): yii\BaseYii::getAlias('@webroot/images...')
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2-imagine/src/BaseImage.php(219): yii\imagine\BaseImage::ensureImageInterfaceInstance('@webroot/images...')
+#2 /Users/harut/code/stor/commands/GenerateImageThumbnailController.php(26): yii\imagine\BaseImage::thumbnail('@webroot/images...', 120, 120)
+#3 [internal function]: app\commands\GenerateImageThumbnailController->actionIndex()
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#8 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#9 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#10 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#12 {main}
+2020-04-20 18:28:05 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587407285.2399
+    'REQUEST_TIME' => 1587407285
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:30:15 [-][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @webroot/1.png in /Users/harut/code/stor/vendor/yiisoft/yii2/BaseYii.php:154
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2-imagine/src/BaseImage.php(144): yii\BaseYii::getAlias('@webroot/1.png')
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2-imagine/src/BaseImage.php(219): yii\imagine\BaseImage::ensureImageInterfaceInstance('@webroot/1.png')
+#2 /Users/harut/code/stor/commands/GenerateImageThumbnailController.php(26): yii\imagine\BaseImage::thumbnail('@webroot/1.png', 120, 120)
+#3 [internal function]: app\commands\GenerateImageThumbnailController->actionIndex()
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#8 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#9 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#10 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#12 {main}
+2020-04-20 18:30:15 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587407415.044
+    'REQUEST_TIME' => 1587407415
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:30:25 [-][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @webroot/images/1.png in /Users/harut/code/stor/vendor/yiisoft/yii2/BaseYii.php:154
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2-imagine/src/BaseImage.php(144): yii\BaseYii::getAlias('@webroot/images...')
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2-imagine/src/BaseImage.php(219): yii\imagine\BaseImage::ensureImageInterfaceInstance('@webroot/images...')
+#2 /Users/harut/code/stor/commands/GenerateImageThumbnailController.php(26): yii\imagine\BaseImage::thumbnail('@webroot/images...', 120, 120)
+#3 [internal function]: app\commands\GenerateImageThumbnailController->actionIndex()
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#8 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#9 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#10 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#12 {main}
+2020-04-20 18:30:25 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587407425.6505
+    'REQUEST_TIME' => 1587407425
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:31:45 [-][-][-][error][Error] Error: Class 'app\commands\Yii' not found in /Users/harut/code/stor/commands/GenerateImageThumbnailController.php:26
+Stack trace:
+#0 [internal function]: app\commands\GenerateImageThumbnailController->actionIndex()
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#9 {main}
+2020-04-20 18:31:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587407505.8122
+    'REQUEST_TIME' => 1587407505
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:40:42 [-][-][-][error][Imagine\Exception\InvalidArgumentException] Imagine\Exception\InvalidArgumentException: File /Users/harut/code/stor/web/images/2.png does not exist. in /Users/harut/code/stor/vendor/imagine/imagine/src/File/Loader.php:164
+Stack trace:
+#0 /Users/harut/code/stor/vendor/imagine/imagine/src/File/Loader.php(73): Imagine\File\Loader->checkLocalFile()
+#1 /Users/harut/code/stor/vendor/imagine/imagine/src/Factory/ClassFactory.php(53): Imagine\File\Loader->__construct('/Users/harut/co...')
+#2 /Users/harut/code/stor/vendor/imagine/imagine/src/Gd/Imagine.php(87): Imagine\Factory\ClassFactory->createFileLoader('/Users/harut/co...')
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2-imagine/src/BaseImage.php(144): Imagine\Gd\Imagine->open('/Users/harut/co...')
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2-imagine/src/BaseImage.php(219): yii\imagine\BaseImage::ensureImageInterfaceInstance('@webroot/images...')
+#5 /Users/harut/code/stor/commands/GenerateImageThumbnailController.php(27): yii\imagine\BaseImage::thumbnail('@webroot/images...', 100000, 300)
+#6 [internal function]: app\commands\GenerateImageThumbnailController->actionIndex()
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#11 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#12 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#13 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#15 {main}
+2020-04-20 18:40:42 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587408042.0785
+    'REQUEST_TIME' => 1587408042
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:51:54 [-][-][-][error][yii\console\Exception] yii\console\Exception: Missing required arguments: sizes in /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php:202
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#8 {main}
+2020-04-20 18:51:54 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587408714.2171
+    'REQUEST_TIME' => 1587408714
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:52:54 [-][-][-][error][yii\console\Exception] yii\console\Exception: Missing required arguments: sizes in /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php:202
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#8 {main}
+2020-04-20 18:52:54 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587408774.7168
+    'REQUEST_TIME' => 1587408774
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:53:17 [-][-][-][error][yii\console\Exception] yii\console\Exception: Missing required arguments: sizes in /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php:202
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#8 {main}
+2020-04-20 18:53:17 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587408797.8057
+    'REQUEST_TIME' => 1587408797
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:53:29 [-][-][-][error][yii\console\Exception] yii\console\Exception: Missing required arguments: sizes in /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php:202
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#8 {main}
+2020-04-20 18:53:29 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587408809.2204
+    'REQUEST_TIME' => 1587408809
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:53:56 [-][-][-][error][Imagine\Exception\InvalidArgumentException] Imagine\Exception\InvalidArgumentException: File /Users/harut/code/stor/web/images/2.png does not exist. in /Users/harut/code/stor/vendor/imagine/imagine/src/File/Loader.php:164
+Stack trace:
+#0 /Users/harut/code/stor/vendor/imagine/imagine/src/File/Loader.php(73): Imagine\File\Loader->checkLocalFile()
+#1 /Users/harut/code/stor/vendor/imagine/imagine/src/Factory/ClassFactory.php(53): Imagine\File\Loader->__construct('/Users/harut/co...')
+#2 /Users/harut/code/stor/vendor/imagine/imagine/src/Gd/Imagine.php(87): Imagine\Factory\ClassFactory->createFileLoader('/Users/harut/co...')
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2-imagine/src/BaseImage.php(144): Imagine\Gd\Imagine->open('/Users/harut/co...')
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2-imagine/src/BaseImage.php(219): yii\imagine\BaseImage::ensureImageInterfaceInstance('@webroot/images...')
+#5 /Users/harut/code/stor/commands/GenerateImageThumbnailController.php(30): yii\imagine\BaseImage::thumbnail('@webroot/images...', 300, 300)
+#6 [internal function]: app\commands\GenerateImageThumbnailController->actionIndex()
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#11 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#12 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#13 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#15 {main}
+2020-04-20 18:53:56 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587408836.4799
+    'REQUEST_TIME' => 1587408836
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:57:26 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined property: Imagine\Gd\Image::$uri in /Users/harut/code/stor/commands/GenerateImageThumbnailController.php:31
+Stack trace:
+#0 /Users/harut/code/stor/commands/GenerateImageThumbnailController.php(31): yii\base\ErrorHandler->handleError(8, 'Undefined prope...', '/Users/harut/co...', 31, Array)
+#1 [internal function]: app\commands\GenerateImageThumbnailController->actionIndex()
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#8 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#10 {main}
+2020-04-20 18:57:26 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587409046.5099
+    'REQUEST_TIME' => 1587409046
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 18:58:35 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined property: Imagine\Gd\Image::$uri in /Users/harut/code/stor/commands/GenerateImageThumbnailController.php:32
+Stack trace:
+#0 /Users/harut/code/stor/commands/GenerateImageThumbnailController.php(32): yii\base\ErrorHandler->handleError(8, 'Undefined prope...', '/Users/harut/co...', 32, Array)
+#1 [internal function]: app\commands\GenerateImageThumbnailController->actionIndex()
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#8 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#10 {main}
+2020-04-20 18:58:35 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587409115.2065
+    'REQUEST_TIME' => 1587409115
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+    ]
+    'argc' => 2
+]
+2020-04-20 19:09:55 [-][-][-][error][Error] Error: Call to a member function getUniqueId() on null in /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php:333
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Action.php(72): yii\base\Controller->getUniqueId()
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(131): yii\base\Action->getUniqueId()
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#8 {main}
+2020-04-20 19:09:55 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587409795.3728
+    'REQUEST_TIME' => 1587409795
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+        2 => '500x600'
+    ]
+    'argc' => 3
+]
+2020-04-20 19:10:42 [-][-][-][error][Error] Error: Class 'app\commands\parrent' not found in /Users/harut/code/stor/commands/GenerateImageThumbnailController.php:17
+Stack trace:
+#0 [internal function]: app\commands\GenerateImageThumbnailController->__construct('generate-image-...', Object(yii\console\Application))
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/di/Container.php(392): ReflectionClass->newInstanceArgs(Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('app\\commands\\Ge...', Array, Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/BaseYii.php(345): yii\di\Container->get('app\\commands\\Ge...', Array)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(642): yii\BaseYii::createObject('app\\commands\\Ge...', Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('generate-image-...')
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('')
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#8 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#9 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#11 {main}
+2020-04-20 19:10:42 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587409842.0537
+    'REQUEST_TIME' => 1587409842
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+        2 => '500x600'
+    ]
+    'argc' => 3
+]
+2020-04-20 19:19:34 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request: migrate/cdown in /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('cdown', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('cdown', Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/cdown', Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/cdown', Array)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#6 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migrate/cdown". in /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/cdown', Array)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#3 {main}
+2020-04-20 19:19:34 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-486'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587410374.3654
+    'REQUEST_TIME' => 1587410374
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/cdown'
+    ]
+    'argc' => 2
+]
+2020-04-20 19:26:54 [-][-][-][error][yii\console\Exception] yii\console\Exception: The step argument must be greater than 0. in /Users/harut/code/stor/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php:238
+Stack trace:
+#0 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(0)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('down', Array)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('down', Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#9 {main}
+2020-04-20 19:26:54 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-450'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587410814.6427
+    'REQUEST_TIME' => 1587410814
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+        2 => 'm200420_175117_insert_mok_data'
+    ]
+    'argc' => 3
+]
+2020-04-20 19:27:04 [-][-][-][error][yii\console\Exception] yii\console\Exception: The step argument must be greater than 0. in /Users/harut/code/stor/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php:238
+Stack trace:
+#0 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(0)
+#1 /Users/harut/code/stor/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('down', Array)
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('down', Array)
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#9 {main}
+2020-04-20 19:27:04 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-450'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587410824.2495
+    'REQUEST_TIME' => 1587410824
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+        2 => 'insert_mok_data'
+    ]
+    'argc' => 3
+]
+2020-04-20 19:30:12 [-][-][-][error][ParseError] ParseError: syntax error, unexpected 'string' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /Users/harut/code/stor/commands/GenerateImageThumbnailController.php:15
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\commands\\Ge...')
+#1 [internal function]: spl_autoload_call('app\\commands\\Ge...')
+#2 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(637): class_exists('app\\commands\\Ge...')
+#3 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('generate-image-...')
+#4 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('')
+#5 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('generate-image-...', Array)
+#6 /Users/harut/code/stor/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('generate-image-...', Array)
+#7 /Users/harut/code/stor/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /Users/harut/code/stor/yii(20): yii\base\Application->run()
+#9 {main}
+2020-04-20 19:30:12 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/harut/Library/Preferences/PhpStorm2019.3/terminal/history/history-450'
+    'HOME' => '/Users/harut'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x0:0x0'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/Users/harut/bin:/Users/harut/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'LC_CTYPE' => 'en_US.UTF-8'
+    'USER' => 'harut'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.jAcY4H7ujA/Listeners'
+    'TMPDIR' => '/var/folders/0f/26blcl_970j3lnbmsp07fdv00000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'harut'
+    'XPC_SERVICE_NAME' => '0'
+    'ZDOTDIR' => ''
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/harut/code/stor'
+    'OLDPWD' => '/Users/harut/code/stor'
+    'ZSH' => '/Users/harut/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    '_' => '/usr/local/opt/php@7.3/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1587411012.7489
+    'REQUEST_TIME' => 1587411012
+    'argv' => [
+        0 => 'yii'
+        1 => 'generate-image-thumbnail'
+        2 => '500x600'
+    ]
+    'argc' => 3
+]
