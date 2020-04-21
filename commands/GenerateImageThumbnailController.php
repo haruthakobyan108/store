@@ -15,6 +15,8 @@ class GenerateImageThumbnailController extends Controller
     public $products;
     public $watermarked = false;
     public $catalogOnly = true;
+    public $successCount = 0;
+    public $failCount = 0;
 
     public function options($actionID): array
     {
@@ -49,7 +51,7 @@ class GenerateImageThumbnailController extends Controller
         foreach ($sizesArray as $size) {
             $this->saveImages($size, $this->products);
         }
-    echo  $this->count;
+        echo  $this->successCount .' has created successful,'. $this->failCount. ' can\'t create';
         Yii::$app->end();
     }
 
@@ -58,9 +60,14 @@ class GenerateImageThumbnailController extends Controller
         $size = explode('x', $sizeString);
 
         foreach ($products as $value){
-            ++$this->count;
             $imageName = $value->image.'_'.$sizeString.'_thumb-test-image.jpg';
-            Image::thumbnail('@webroot/images/'.$value->image, $size[0], !isset($size[1])?:$size[0])->save(Yii::getAlias('@webroot/images/thumbnails/'.$imageName));
+            try {
+                Image::thumbnail('@webroot/images/'.$value->image, $size[0], !isset($size[1])?:$size[0])->save(Yii::getAlias('@webroot/images/thumbnails/'.$imageName));
+                ++$this->successCount;
+            }catch (\Exception $e) {
+                ++$this->failCount;
+                continue;
+            }
             if ($this->watermarked) {
                 Image::watermark('@webroot/images/thumbnails/'.$imageName,'@webroot/images/watermark.png')->save(Yii::getAlias('@webroot/images/thumbnails/'.$imageName));
             }
