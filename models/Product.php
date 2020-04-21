@@ -15,6 +15,7 @@ use yii\db\ActiveRecord;
  */
 class Product extends ActiveRecord
 {
+     const IS_DELETED = 0;
     /**
      * {@inheritdoc}
      */
@@ -53,11 +54,15 @@ class Product extends ActiveRecord
      */
     public function getStoreProducts()
     {
-        return $this->hasMany(StoreProduct::class, ['product_id' => 'id']);
+        return $this->hasMany(StoreProduct::className(), ['product_id' => 'id']);
     }
 
-    public function getActiveProducts()
+    public function getActiveProducts($catalogOnly)
     {
-        return self::find()->where(['is_deleted' => '0'])->all();
+        $query =  self::find()->where(['is_deleted' => self::IS_DELETED]);
+        if ($catalogOnly) {
+            $query->with(['store_product']);
+        }
+        return $query->one();
     }
 }

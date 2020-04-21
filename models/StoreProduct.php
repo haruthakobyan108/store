@@ -3,6 +3,7 @@
 namespace app\models;
 
 use Yii;
+use yii\db\ActiveQuery;
 
 /**
  * This is the model class for table "store_product".
@@ -15,6 +16,9 @@ use Yii;
  */
 class StoreProduct extends \yii\db\ActiveRecord
 {
+    public $with = [
+        'store_product'
+    ];
     /**
      * {@inheritdoc}
      */
@@ -50,7 +54,7 @@ class StoreProduct extends \yii\db\ActiveRecord
     /**
      * Gets query for [[Product]].
      *
-     * @return \yii\db\ActiveQuery
+     * @return ActiveQuery
      */
     public function getProduct()
     {
