@@ -24,6 +24,15 @@ class m200420_175117_insert_mok_data extends Migration
                 ['8.png', 1]
         ]);
 
+        $this->batchInsert('store_product', [ 'product_image' ,'product_id'],
+            [
+                ['1.png', 1],
+                ['2.png', 2],
+                ['3.png', 3],
+                ['4.png', 4],
+                ['5.png', 5]
+        ]);
+
     }
 
     /**

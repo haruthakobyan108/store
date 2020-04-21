@@ -11,6 +11,7 @@ use app\models\Product;
 class GenerateImageThumbnailController extends Controller
 {
     public $sizes;
+    public $count;
     public $products;
     public $watermarked = false;
     public $catalogOnly = true;
@@ -43,15 +44,13 @@ class GenerateImageThumbnailController extends Controller
         $sizesArray = (explode(',', $this->sizes));
 
         $product = new Product;
-
         $this->products = $product->getActiveProducts($this->catalogOnly);
 
         foreach ($sizesArray as $size) {
             $this->saveImages($size, $this->products);
         }
-
-        return  'ok';
-
+    echo  $this->count;
+        Yii::$app->end();
     }
 
     private function saveImages(string $sizeString,array $products): void
@@ -59,6 +58,7 @@ class GenerateImageThumbnailController extends Controller
         $size = explode('x', $sizeString);
 
         foreach ($products as $value){
+            ++$this->count;
             $imageName = $value->image.'_'.$sizeString.'_thumb-test-image.jpg';
             Image::thumbnail('@webroot/images/'.$value->image, $size[0], !isset($size[1])?:$size[0])->save(Yii::getAlias('@webroot/images/thumbnails/'.$imageName));
             if ($this->watermarked) {
